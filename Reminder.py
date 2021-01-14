@@ -17,7 +17,7 @@ reminder_date = datetime(int(reminder_year),
                          0)
 
 time_diff = reminder_date - datetime.now()
-time.sleep(time_diff.total_seconds)
+time.sleep(int(time_diff.total_seconds()))
 print(text)
 
 
