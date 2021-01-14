@@ -1,5 +1,0 @@
-What shall I remind you about?
-Traceback (most recent call last):
-  File "Reminder.py", line 5, in <module>
-    text = str(input())
-OSError: [Errno 9] Bad file descriptor
